@@ -2,7 +2,7 @@ const CandyToken = artifacts.require("./CandyToken.sol");
 const CandyCrowdsale = artifacts.require("./CandyCrowdsale.sol");
 const CandyAirdrop = artifacts.require("./CandyAirdrop.sol");
 
-const name = "Crypto Candy";
+const name = "CRYPTO CANDY";
 const symbol = "CANDY";
 const decimals = 18;
 const initialSupply = 800000000; // 9??
@@ -26,7 +26,8 @@ const CANDY_TOKEN_ADDRESS_RINKEBY =
 
 // Mainnet - Klaytn
 // @see https://baobab.klaytnscope.com/account/0x
-const CANDY_TOKEN_ADDRESS_CYPRESS = "";
+const CANDY_TOKEN_ADDRESS_CYPRESS =
+  "0x1f759faa9467edadc531e901b5e49fddc9e6b18b";
 
 // Baobab - Klaytn
 // @see https://baobab.klaytnscope.com/account/0xe0e047204b6cf09ca49f8b318053cc81c996bf53

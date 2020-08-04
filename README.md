@@ -40,3 +40,7 @@ Smart-contracts for Cryto Candy platform
 ## baobab candy token address
 
 > 0x69f75e30ee83a450b033fd6451fd7993051bb19c
+
+## cypress candy token address
+
+> 0x1f759faa9467edadc531e901b5e49fddc9e6b18b
