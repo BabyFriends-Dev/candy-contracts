@@ -1,5 +1,8 @@
 # candy-contracts
 
+nvm use v9.5.0
+
+
 Smart-contracts for Cryto Candy platform
 
 - Candy contracts was forked from Spin Protocal
@@ -19,6 +22,23 @@ Smart-contracts for Cryto Candy platform
    `export FUND_COLLECTOR_ADDRESS="<fund_collector_address>"`
 7. Finally deploy the contract on the network you desire
    `NETWORK=<network_name> npm run deploy`
+
+```bash
+NETWORK=ropsten truffle compile
+NETWORK=ropsten npm run deploy
+NETWORK=ropsten truffle deploy --network ropsten  --reset
+
+```
+
+## remix.ethereum.org
+https://remix.ethereum.org/#optimize=true&evmVersion=null&version=soljson-v0.4.24+commit.e67f0147.js
+
+
+
+## Deploy 인자 
+
+: name , symbol , decimals, initialSupply
+: "CRYPTO CANDY" , "CANDY" , 18 , 800000000
 
 ## Deployment - Kalytn
 
