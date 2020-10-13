@@ -8,7 +8,7 @@ require("chai")
   .should();
 
 contract("CandyToken", ([creator, receiver, thirdParty]) => {
-  const NAME = "CANDY Protocol";
+  const NAME = "Crypto Candy";
   const SYMBOL = "CANDY";
   const DECIMALS = 18;
   const INITIAL_SUPPLY = 1250000000; // 1.25 Billion CANDY tokens

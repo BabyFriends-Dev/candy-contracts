@@ -22,7 +22,7 @@ contract(
     address7,
     address8,
   ]) => {
-    const NAME = "CANDY Protocol";
+    const NAME = "Crypto Candy";
     const SYMBOL = "CANDY";
     const DECIMALS = 18;
     const INITIAL_SUPPLY = new BigNumber(1250000000); // 1.25 Billion CANDY tokens
